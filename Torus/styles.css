@@ -1,0 +1,95 @@
+body{
+    background: #63aed1;
+    margin-left: 10%;
+    margin-right: 10%;
+    border: 10px dotted gray;
+    padding: 10px 10px 10px 10px;
+    font-family: sans-serif;
+}
+
+nav{
+    font-family: "Trirong", serif;
+    text-align-last: justify;
+    align-items: center;
+    display:flex;
+    gap: 18vw;
+    text-decoration-style: wavy;
+    text-shadow: 2px 2px 5px rgb(51, 255, 0);
+   
+}
+
+.ig{
+    background: conic-gradient(from 0deg, #d7b718, #f58f41, #e36b0f);
+    margin-left: 10%;
+    margin-right: 10%;
+    border: 10px dotted rgb(77, 131, 142);
+    padding: 10px 10px 10px 10px;
+    font-family: 'Courier New', Courier, monospace;
+
+}
+img{
+    
+    border-radius: 50%;
+    size-adjust: 20%;
+}
+.styled-circle {
+    text-align: center;
+    
+    display: flex;
+    align-items: center; /* Vertically center the content */
+    justify-content: center; /* Horizontally center the content */
+}
+
+.styled-circle img {
+    width: 200px;         /* Set the desired width */
+    height: 200px;        /* Set the desired height */
+    border-radius: 50%;   /* Make the image circular */
+    object-fit: cover;    /* Ensure the image covers the circular area */
+}
+
+
+
+
+h1{
+    font-family: "Sofia";
+    background-color: green;
+    opacity: 0.6;
+    color:white;
+    text-align: center;
+}
+p{  border-style: outset;
+    font-family:'Courier New';
+    font-size: 20px;
+    border-width: thick;
+    border-color: greenyellow
+}
+#connect {                
+    text-align: center;
+    color: rgb(94, 4, 127);
+
+
+}
+.center {
+    text-align: center;
+    color: red;
+}
+p.center {
+    background-color: yellow;
+    text-align: center;
+    color: blue;
+  }
+/* This is a single-Line comment */
+.image-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 8vw;
+    padding: 10px;
+}
+
+.image-section img {
+    width: auto;
+    max-width: 100px; /* Limit the maximum width */
+    height: auto; /* Maintain aspect ratio */
+    object-fit: cover;
+}
