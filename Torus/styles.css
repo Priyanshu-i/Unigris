@@ -47,6 +47,14 @@ img{
     object-fit: cover;    /* Ensure the image covers the circular area */
 }
 
+ul {
+    background: #3399ff;
+    padding: 20px;}
+
+ul li {
+     background: #cce5ff;
+     color: darkblue;
+     margin: 5px;}
 
 
 
